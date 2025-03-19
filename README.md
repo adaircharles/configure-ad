@@ -30,6 +30,8 @@ In Azure, I created a Virtual Network and Subnet, then created a Domain Controll
 After logging in to the Domain Controller VM, I installed Active Directory Domain Services, promoted it as a Domain Controller, and set up a new forest - mydomain.com. After, I restarted and logged back into DC-1 as user: mydomain.com\labuser. After logging in, in Active Directory Users and Computers, I created the Organizational Units called "_EMPLOYEES" and "_ADMINS". After, I created user "Jane Doe", set her username and password and added her to the "Domain Admins" Security Group. I then logged out of the DC VM, and relogged into it as mydomain.com\jane_admin. I then logged into the Client VM as the original local admin and joined it to the domain. After the VM restarted, I logged back in to verify Client-1 showed up in ADUC. I then created a new OU named "_CLIENTS" and dragged Client-1 into the folder.
 </p>
 
+![screenshot5](https://github.com/user-attachments/assets/ad0620f8-76f7-4c05-a533-dd35dd69a92b)
+
 ![1 mydomain tree](https://github.com/user-attachments/assets/62080f6b-c78b-42e8-8108-f97808ec1dc4)
 
 
