@@ -34,6 +34,9 @@ After logging in to the Domain Controller VM, I installed Active Directory Domai
 
 ![1 mydomain tree](https://github.com/user-attachments/assets/62080f6b-c78b-42e8-8108-f97808ec1dc4)
 
+![CLient-1 is now in OU _CLIENTS](https://github.com/user-attachments/assets/596ce150-5fe4-43e8-a7f7-8037ada4c353)
+
+
 
 <br />
 
@@ -42,6 +45,9 @@ As jane_admin on the DC-1 VM, I used Powershell_ise as an administrator to run a
 </p>
 
 ![using a script to create 10000 users](https://github.com/user-attachments/assets/9f056ac4-495b-4719-8ff9-77acd959d6b4)
+
+![Resetting users password and unlocking account](https://github.com/user-attachments/assets/47a8b357-88c5-4a17-86be-e62e0b0a0d4e)
+
 ![Setting group policy and lockouts](https://github.com/user-attachments/assets/fad3731d-c2f7-43ae-97f9-d72ec1e73d98)
 
 
